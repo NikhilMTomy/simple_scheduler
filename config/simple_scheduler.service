@@ -1,0 +1,9 @@
+[Unit]
+Description=Simple program scheduler
+
+[Service]
+User=root
+ExecStart=simple_scheduler
+
+[Install]
+WantedBy=multi-user.target
